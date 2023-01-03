@@ -1,1 +1,200 @@
-/* PRINCIPAUX ÉLÉMENTS */html, body {		background-color: #9d9d9d;		height: 100%;		margin: 0;		padding: 0;}.buttonDefault {		background-color: #e2dde1;		border: 2px solid #000000;		height: 30px;		width: 200px;	}.buttonDefault:hover {		background-color: #fd6811;		height: 30px;		width: 200px;	}/* CONTENU DU BIENVENUE */#leftSide {		background-image: linear-gradient(to left, white, black);		border: 3px solid #333;	float: left;		height: 100vh;		position: relative;		width: 50%;		z-index: 1;}#center {		font-weight: bold;		height: 180px; 		margin: auto;		position: absolute;		overflow: hidden;		width: 210px;		z-index: 2; 			top: 0;		right: 0;		bottom: 0;		left: 0;}#startButton {		font-weight: bold;		line-height: 130px;		margin: 0;		width:  210px;}#welcome{		height: 180px;		position: absolute;		text-align: center;		width: 210px;      }#rightSide {		background-image: linear-gradient(to right, white, black);		border: 3px solid #333;		height: 100vh;		margin-left: 50%;		position: relative;	z-index: 1;}/* RUBRIQUES DU CV */#rubriques {		font-weight: bold;		height: 70%; 		margin: auto;		overflow: hidden;		position: absolute;		width: 100%;			top: 0;		right: 0;		bottom: 0;		left: 0;}#rubriques div {		height: 50%;		margin-left: 8%;		margin-right: auto;		width: 90%;}.boutonRubriques {		background-color: #9d9d9d;		border-radius: 20px;		font-size: 20px;		font-weight: bold;		height: 70%;		margin: 1% auto 0 1%;		position: relative;		width: 30%;}#diploma{		border-color: #5b9bf1;		border-size: 3px;		border-style: ridge;		display: none;}#skills{		border-color: #fd6811;		border-style: ridge;		border-size: 3px;		display: none;}#projects {		border-color: #28c3fe;		border-size: 3px;		border-style: ridge;		display: none;}#proExp {		border-color: red;		border-size: 3px;		border-style: ridge;		display: none;}#hobbies {		border-color: green;		border-size: 3px;		border-style: ridge;		display: none; } #contact {		border-color: aqua;		border-size: 3px;		border-style: ridge;		display: none;}/* CONTENU DU CV */#content {		background-color: #e2dde1;		border: 3px double #fd6811;		border-radius: 20px;		padding: 15px;		font-size: 15px;		height: 450px;		left: 50%;		margin: -300px 0 0 -340px;		position: relative;		text-align: center;		width: 700px;}/* A PROPOS */#description {		background-color: #e2dde1;		border: 3px double #fd6811;		border-radius: 20px;		display: none;		margin:-150px 0 0 -200px;		padding: 15px;		position: absolute;		text-align: center;		width: 400px;		z-index: 3;			left:50%;		top:50%;}/* PIED DE PAGE */footer {		background: #222;		color: white;		font-size: 1em;		height: 60px;		line-height: 30px;		position: absolute;		text-align: center;		width: 100%;			bottom: 0;		left: 0;}
+/* PRINCIPAUX ÉLÉMENTS */
+
+html, body {	
+	background-color: #9d9d9d;	
+	height: 100%;	
+	margin: 0;	
+	padding: 0;
+}
+
+.buttonDefault {	
+	background-color: #e2dde1;	
+	border: 2px solid #000000;	
+	height: 30px;	
+	width: 200px;	
+}
+
+.buttonDefault:hover {	
+	background-color: #fd6811;	
+	height: 30px;	
+	width: 200px;	
+}
+
+/* CONTENU DU BIENVENUE */
+
+#leftSide {	
+	background-image: linear-gradient(to left, white, black);	
+	border: 3px solid #333;	float: left;	
+	height: 100vh;	
+	position: relative;	
+	width: 50%;	
+	z-index: 1;
+}
+
+#center {	
+	font-weight: bold;	
+	height: 180px; 	
+	margin: auto;	
+	position: absolute;	
+	overflow: hidden;	
+	width: 210px;	
+	z-index: 2; 		
+	top: 0;	
+	right: 0;	
+	bottom: 0;	
+	left: 0;
+}
+
+#startButton {	
+	font-weight: bold;	
+	line-height: 130px;	
+	margin: 0;	
+	width:  210px;
+}
+
+#welcome{	
+	height: 180px;	
+	position: absolute;	
+	text-align: center;	
+	width: 210px;      
+}
+
+#rightSide {	
+	background-image: linear-gradient(to right, white, black);	
+	border: 3px solid #333;	
+	height: 100vh;	
+	margin-left: 50%;	
+	position: relative;	z-index: 1;
+}
+
+/* RUBRIQUES DU CV */
+
+#rubriques {	
+	font-weight: bold;	
+	height: 70%; 	
+	margin: auto;	
+	overflow: hidden;	
+	position: absolute;	
+	width: 100%;		
+	top: 0;	
+	right: 0;	
+	bottom: 0;	
+	left: 0;
+}
+
+#rubriques div {	
+	height: 50%;	
+	margin-left: 8%;	
+	margin-right: auto;	
+	width: 90%;
+}
+
+.boutonRubriques {	
+	background-color: #9d9d9d;	
+	border-radius: 20px;	
+	font-size: 20px;	
+	font-weight: bold;	
+	height: 70%;	
+	margin: 1% auto 0 1%;	
+	position: relative;	
+	width: 30%;
+}
+
+#diploma{	
+	border-color: #5b9bf1;	
+	border-size: 3px;	
+	border-style: ridge;	
+	display: none;
+}
+
+#skills{	
+	border-color: #fd6811;	
+	border-style: ridge;	
+	border-size: 3px;	
+	display: none;
+}
+
+#projects {	
+	border-color: #28c3fe;	
+	border-size: 3px;	
+	border-style: ridge;	
+	display: none;
+}
+
+#proExp {	
+	border-color: red;	
+	border-size: 3px;	
+	border-style: ridge;	
+	display: none;
+}
+
+#hobbies {	
+	border-color: green;	
+	border-size: 3px;	
+	border-style: ridge;	
+	display: none; 
+} 
+
+#contact {	
+	border-color: aqua;	
+	border-size: 3px;	
+	border-style: ridge;	
+	display: none;
+}
+
+/* CONTENU DU CV */
+
+#content {	
+	background-color: #e2dde1;	
+	border: 3px double #fd6811;	
+	border-radius: 20px;	
+	padding: 15px;	
+	font-size: 15px;	
+	height: 450px;	
+	left: 50%;	
+	margin: -300px 0 0 -340px;	
+	position: relative;	
+	text-align: center;	
+	width: 700px;
+}
+
+/* A PROPOS */
+
+#description {	
+	background-color: #e2dde1;	
+	border: 3px double #fd6811;	
+	border-radius: 20px;	
+	display: none;	
+	margin:-150px 0 0 -200px;	
+	padding: 15px;	
+	position: absolute;	
+	text-align: center;	
+	width: 400px;	
+	z-index: 3;		
+	left:50%;	
+	top:50%;
+}
+
+/* PIED DE PAGE */
+
+footer {	
+	background: #222;	
+	color: white;	
+	font-size: 1em;	
+	height: 60px;	
+	line-height: 30px;	
+	position: absolute;	
+	text-align: center;	
+	width: 100%;		
+	bottom: 0;	
+	left: 0;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 6px;
+	 margin-left: auto;
+     margin-right: auto;
+	 width:100%;
+	 height:70%;
+}
