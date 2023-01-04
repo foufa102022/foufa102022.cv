@@ -1,7 +1,7 @@
 $(document).ready(function() {		
 	/* Redirection pour les mobiles */
 	if ($(window).width() < 1000) {
-		$(location).attr('href',"http://semrom.fr/cv/mobile");
+		$(location).attr('href',"http://cv de chetoui iftikhar/mobile");
 	}
 	
 	/* Déclaration de tableaux */	
